@@ -106,8 +106,8 @@ config.keys = {
 	{ action = act.ResetFontSize, mods = "CTRL", key = "0" },
 	{ action = act.ToggleFullScreen, key = "F11" },
 	{ key = "w", mods = "CTRL", action = act.CloseCurrentTab({ confirm = false }) },
-	{ key = "T", mods = "CTRL|SHIFT", action = act.SpawnCommandInNewTab({ args = { "pwsh.exe" }, cwd = current_dir }) },
-	{ key = "n", mods = "CTRL|SHIFT", action = act.SpawnCommandInNewWindow({ args = { "pwsh.exe" }, cwd = current_dir }) },
+	{ key = "T", mods = "CTRL|SHIFT", action = act.SpawnCommandInNewTab({ args = { "C:\\Program Files\\Git\\bin\\bash.exe", "--login", "-i" }, cwd = current_dir }) },
+	{ key = "n", mods = "CTRL|SHIFT", action = act.SpawnCommandInNewWindow({ args = { "C:\\Program Files\\Git\\bin\\bash.exe", "--login", "-i" }, cwd = current_dir }) },
 	{
 		key = "E", mods = "CTRL|SHIFT",
 		action = act.PromptInputLine({
