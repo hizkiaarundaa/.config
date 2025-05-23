@@ -8,7 +8,7 @@ alias college='cd /d/College'
 alias ll='ls -lah'
 # git
 alias g='git'
-alias gad='git add'
+alias gaa='git add .'
 alias gbr='git branch'
 alias gch='git checkout'
 alias gcl='git clone'
@@ -18,9 +18,11 @@ alias gpl='git pull'
 alias gps='git push'
 alias gst='git status'
 #node
-alias nrd='npm run dev'
+alias nd='npm run dev'
 alias yd='yarn dev'
 alias bd='bun dev'
+alias pd='pnpm run dev'
+# sass
 alias scs='sass --watch .:dist/css/ --style=compressed'
 # apk
 alias chrome='/c/Program\ Files/Google/Chrome/Application/chrome.exe'
